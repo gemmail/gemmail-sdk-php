@@ -1,0 +1,20 @@
+{
+  "name": "gemmail/gemmail-sdk-php",
+  "type": "library",
+  "description": "GemMail PHP-SDK",
+  "keywords": ["gemmail"],
+  "homepage": "https://gemmail.com.br",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "gemmail",
+      "email": "info@gemmail.com.br"
+    }
+  ],
+  "require": {
+    "php": ">=5.2"
+  },
+  "autoload": {
+    "files": ["GemMailApi/autoload.php"]
+  }
+}
